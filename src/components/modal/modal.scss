@@ -1,0 +1,33 @@
+.modal-custom{
+    position: absolute;
+    inset: 50% auto auto 50%;
+    border: none;
+    background: rgb(245, 245, 245);
+    overflow: auto;
+    border-radius: 8px;
+    outline: none;
+    padding: 20px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    width: 600px;
+    height: auto;
+    filter: drop-shadow(rgba(0, 0, 0, 0.08) 0px 4px 10px);
+}
+
+.overlay-custom{
+    background-color: rgba(0,0,0,0.5);
+}
+
+@media (max-width: 600px){
+    .modal-custom{
+        transform: translate(-50%, -50%);
+        width: 350px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 10rem;
+    }
+    .overlay-custom{
+        background-color: rgba(0, 0, 0, 0.603);
+    }
+}

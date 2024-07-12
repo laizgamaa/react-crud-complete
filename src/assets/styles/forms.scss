@@ -1,0 +1,14 @@
+.register-label{
+    display: grid;
+}
+
+.col-6{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    @media (max-width: 560px) {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+}

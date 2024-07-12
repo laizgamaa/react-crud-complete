@@ -1,0 +1,40 @@
+.btn{
+	padding: .75rem 1rem;
+	text-decoration: none;
+	font-size: 1rem;
+	border-radius: 25px;
+	display: inline-flex;
+	justify-content: center;
+	font-weight: 700;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+}
+.btn-default{
+    color: $color-white;
+    background: $color-darkgreen;
+}
+.btn-default:hover, .btn-default:active, .btn-default:focus{
+    color: $color-white;
+    background: $color-green;
+    border: none;
+}
+.btn-primary{
+    color: $color-white;
+    background: $color-green-primary;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus{
+    color: $color-white;
+    background: $color-green-primary;
+    border: none;
+}
+.btn-secondary{
+    color: $color-grey;
+    background: $color-lightgrey;
+}
+
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus{
+    color: $color-grey;
+    background: $color-lightgrey;
+    border: none;
+}

@@ -1,0 +1,29 @@
+@import "./settings.colors.scss";
+@import "./buttons.scss";
+@import "./forms.scss";
+
+@import "../../pages/home/home.scss";
+@import "../../components/modal/modal.scss";
+@import "../../components/employee/employee.scss";
+@import "../../components/register-employee/register-employee.scss";
+@import "../../components/edit-employee/edit-employee.scss";
+@import "../../components/delete-employee/delete-employee.scss";
+
+body {
+    background-color: $color-black;
+}
+
+p,
+h1,
+h3 {
+	color: $color-white;
+}
+
+p {
+    margin: 0.3rem 0;
+}
+
+.close-icon{
+    float: right;
+}
+
